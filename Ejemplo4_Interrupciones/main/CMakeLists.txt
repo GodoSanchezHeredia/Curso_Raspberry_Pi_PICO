@@ -1,5 +1,6 @@
 add_executable(main
         main.c
+        LCD.c
         )
 
 # pull in common dependencies
