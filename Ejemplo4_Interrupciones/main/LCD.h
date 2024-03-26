@@ -9,6 +9,9 @@
 #define INC_LCD_H_
 
 
+
+
+
 #include "pico/stdlib.h"
 
 
@@ -40,32 +43,6 @@ typedef enum{
 	fila3,
 	fila4
 }Ubicacion;
-
-#include "pico/stdlib.h"
-
-
-#include <stdio.h>
-#include <stdint.h>
-#include <stdbool.h>
-
-#define E_ON   	gpio_put(11,1);
-#define E_OFF  	gpio_put(11,0);
-
-#define RS_ON 	gpio_put(12,1);
-#define RS_OFF 	gpio_put(12,0);
-
-#define D4_ON 	gpio_put(10,1);
-#define D4_OFF 	gpio_put(10,0);
-
-#define D5_ON 	gpio_put(9,1);
-#define D5_OFF  gpio_put(9,0);
-
-#define D6_ON 	gpio_put(8,1);
-#define D6_OFF 	gpio_put(8,0);
-
-#define D7_ON 	gpio_put(7,1);
-#define D7_OFF 	gpio_put(7,0);
-
 
 
 void LCD_PICO_CMD(uint8_t a);
