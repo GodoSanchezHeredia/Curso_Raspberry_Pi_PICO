@@ -195,7 +195,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/DELL/Documents/GitHub/Curso_Raspberry_Pi_PICO/Ejemplo5_Timer/build"
+			"value" : "c:/Users/DELL/Documents/GitHub/Curso_Raspberry_Pi_PICO/Ejemplo6_Timerv2/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -679,7 +679,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/DELL/Documents/GitHub/Curso_Raspberry_Pi_PICO/Ejemplo5_Timer/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/DELL/Documents/GitHub/Curso_Raspberry_Pi_PICO/Ejemplo6_Timerv2/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -739,7 +739,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/DELL/Documents/GitHub/Curso_Raspberry_Pi_PICO/Ejemplo5_Timer"
+			"value" : "C:/Users/DELL/Documents/GitHub/Curso_Raspberry_Pi_PICO/Ejemplo6_Timerv2"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -751,7 +751,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/ejemplo5_timer"
+			"value" : "C:/Program Files (x86)/ejemplo6_timerv2"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -979,7 +979,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "ejemplo5_timer"
+			"value" : "ejemplo6_timerv2"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1487,7 +1487,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/cmsis C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2040/hardware_regs C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/cmsis C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2040/hardware_regs C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/cmsis C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2040/hardware_regs"
+			"value" : " C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/cmsis C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2040/hardware_regs C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/cmsis C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2040/hardware_regs"
 		},
 		{
 			"name" : "PICO_DOXYGEN_PATHS",
@@ -1754,7 +1754,7 @@
 			"value" : ""
 		},
 		{
-			"name" : "ejemplo5_timer_BINARY_DIR",
+			"name" : "ejemplo6_timerv2_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1763,10 +1763,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/DELL/Documents/GitHub/Curso_Raspberry_Pi_PICO/Ejemplo5_Timer/build"
+			"value" : "C:/Users/DELL/Documents/GitHub/Curso_Raspberry_Pi_PICO/Ejemplo6_Timerv2/build"
 		},
 		{
-			"name" : "ejemplo5_timer_IS_TOP_LEVEL",
+			"name" : "ejemplo6_timerv2_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1778,7 +1778,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "ejemplo5_timer_SOURCE_DIR",
+			"name" : "ejemplo6_timerv2_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1787,7 +1787,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/DELL/Documents/GitHub/Curso_Raspberry_Pi_PICO/Ejemplo5_Timer"
+			"value" : "C:/Users/DELL/Documents/GitHub/Curso_Raspberry_Pi_PICO/Ejemplo6_Timerv2"
 		},
 		{
 			"name" : "pico-sdk-tools_DIR",
@@ -1811,7 +1811,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/DELL/Documents/GitHub/Curso_Raspberry_Pi_PICO/Ejemplo5_Timer/build/pico-sdk"
+			"value" : "C:/Users/DELL/Documents/GitHub/Curso_Raspberry_Pi_PICO/Ejemplo6_Timerv2/build/pico-sdk"
 		},
 		{
 			"name" : "pico_sdk_IS_TOP_LEVEL",
