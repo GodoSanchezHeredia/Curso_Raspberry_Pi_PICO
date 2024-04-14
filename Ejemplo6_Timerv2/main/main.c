@@ -2,6 +2,7 @@
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
 #include "hardware/timer.h"
+#include "hardware/pwm.h"
 #include <stdio.h>
 #include <stdint.h>
 #include <stdbool.h>
@@ -21,6 +22,8 @@ void Timer_Rep_ISR(alarm_id_t id, void *user_data);
 
 int main() {
     stdio_init_all();
+    uint16_t slice_num = pwm_gpio_to_slice_num(0);
+
       //Configuracion del PIN
     gpio_init(LED_PIN);
     gpio_set_dir(LED_PIN, GPIO_OUT);

@@ -26,6 +26,7 @@
   "files.associations": {
     "gpio.h": "c",
     "sync.h": "c",
-    "timer.h": "c"
+    "timer.h": "c",
+    "pwm.h": "c"
   }
 }
