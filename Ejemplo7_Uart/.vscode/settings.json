@@ -25,7 +25,6 @@
   "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
   "files.associations": {
     "lcd.h": "c",
-    "stdlib.h": "c",
-    "uart.h": "c"
+    "stdlib.h": "c"
   }
 }

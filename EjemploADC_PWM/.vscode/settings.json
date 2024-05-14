@@ -24,8 +24,9 @@
   "cmake.generator": "Ninja",
   "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
   "files.associations": {
-    "lcd.h": "c",
-    "stdlib.h": "c",
-    "uart.h": "c"
+    "gpio.h": "c",
+    "sync.h": "c",
+    "timer.h": "c",
+    "pwm.h": "c"
   }
 }
