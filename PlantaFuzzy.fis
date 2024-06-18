@@ -1,0 +1,47 @@
+[System]
+Name='PlantaFuzzy'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=9
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='Temperatura'
+Range=[0 100]
+NumMFs=3
+MF1='Frio':'trimf',[-41.66 0 41.66]
+MF2='Tibio':'trimf',[30 49.51 80]
+MF3='Caliente':'trimf',[58.33 100 141.7]
+
+[Input2]
+Name='Humedad'
+Range=[0 100]
+NumMFs=3
+MF1='SECO':'trimf',[-41.67 0 41.67]
+MF2='humedo':'trimf',[33.5 51.7195767195767 72.4]
+MF3='Mojado':'trimf',[58.33 100 141.7]
+
+[Output1]
+Name='PWMcontrol'
+Range=[0 255]
+NumMFs=3
+MF1='BPot':'trimf',[-106 0 71.1706349206349]
+MF2='Mpot':'gaussmf',[46.5071092149777 132]
+MF3='APot':'trimf',[203.392857142857 256 362]
+
+[Rules]
+1 1, 1 (1) : 1
+1 2, 2 (1) : 1
+1 3, 3 (1) : 1
+2 1, 1 (1) : 1
+2 2, 1 (1) : 1
+2 3, 2 (1) : 1
+3 1, 1 (1) : 1
+3 2, 1 (1) : 1
+3 3, 3 (1) : 1

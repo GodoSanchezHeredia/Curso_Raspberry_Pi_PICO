@@ -13,13 +13,13 @@ int main() {
     stdio_init_all();
     sleep_ms(3000);
     printf("LCD I2C INIT\r\n");
-    i2c_init(&i2c1_inst, 100 * 1000); //100KHz
+    i2c_init(i2c_default, 100 * 1000); //100KHz
     gpio_set_function(PICO_DEFAULT_I2C_SDA_PIN, GPIO_FUNC_I2C);
     gpio_set_function(PICO_DEFAULT_I2C_SCL_PIN, GPIO_FUNC_I2C);
     gpio_pull_up(PICO_DEFAULT_I2C_SDA_PIN);
     gpio_pull_up(PICO_DEFAULT_I2C_SCL_PIN);
 
-   // bi_decl(bi_2pins_with_func(15, 14, GPIO_FUNC_I2C));
+        bi_decl(bi_2pins_with_func(PICO_DEFAULT_I2C_SDA_PIN, PICO_DEFAULT_I2C_SCL_PIN, GPIO_FUNC_I2C));
 
     printf("configuracion hecha\n\r");
     
