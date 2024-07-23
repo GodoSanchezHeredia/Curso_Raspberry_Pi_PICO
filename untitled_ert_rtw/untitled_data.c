@@ -3,9 +3,9 @@
  *
  * Code generated for Simulink model 'untitled'.
  *
- * Model version                  : 1.1
+ * Model version                  : 1.3
  * Simulink Coder version         : 9.9 (R2023a) 19-Nov-2022
- * C/C++ source code generated on : Wed Jun 19 12:48:17 2024
+ * C/C++ source code generated on : Tue Jul  9 16:31:30 2024
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM Cortex
@@ -17,16 +17,6 @@
 
 /* Block parameters (default storage) */
 P_untitled_T untitled_P = {
-  /* Expression: 5
-   * Referenced by: '<Root>/Signal Generator2'
-   */
-  5.0,
-
-  /* Expression: 40
-   * Referenced by: '<Root>/Signal Generator2'
-   */
-  40.0,
-
   /* Expression: 100
    * Referenced by: '<Root>/Signal Generator'
    */
@@ -37,10 +27,10 @@ P_untitled_T untitled_P = {
    */
   0.5,
 
-  /* Expression: 100
+  /* Expression: 125
    * Referenced by: '<Root>/Constant'
    */
-  100.0,
+  125.0,
 
   /* Expression: 10
    * Referenced by: '<Root>/Signal Generator1'
@@ -50,7 +40,37 @@ P_untitled_T untitled_P = {
   /* Expression: 80
    * Referenced by: '<Root>/Signal Generator1'
    */
-  80.0
+  80.0,
+
+  /* Expression: 20
+   * Referenced by: '<Root>/Signal Generator2'
+   */
+  20.0,
+
+  /* Expression: 40
+   * Referenced by: '<Root>/Signal Generator2'
+   */
+  40.0,
+
+  /* Expression: 1
+   * Referenced by: '<Root>/Pulse Generator'
+   */
+  1.0,
+
+  /* Expression: 5
+   * Referenced by: '<Root>/Pulse Generator'
+   */
+  5.0,
+
+  /* Expression: 5
+   * Referenced by: '<Root>/Pulse Generator'
+   */
+  5.0,
+
+  /* Expression: 0
+   * Referenced by: '<Root>/Pulse Generator'
+   */
+  0.0
 };
 
 /*

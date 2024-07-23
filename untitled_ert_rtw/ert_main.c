@@ -3,9 +3,9 @@
  *
  * Code generated for Simulink model 'untitled'.
  *
- * Model version                  : 1.1
+ * Model version                  : 1.3
  * Simulink Coder version         : 9.9 (R2023a) 19-Nov-2022
- * C/C++ source code generated on : Wed Jun 19 12:48:17 2024
+ * C/C++ source code generated on : Tue Jul  9 16:31:30 2024
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM Cortex
@@ -120,7 +120,7 @@ int app_main(int argc, char **argv)
   }
 
   /* Call RTOS Initialization function */
-  mw_RTOSInit(0.0041666666666666666, 0);
+  mw_RTOSInit(1.0, 0);
 
   /* Wait for stop semaphore */
   mw_osSemaphoreWaitEver(&stopSem);

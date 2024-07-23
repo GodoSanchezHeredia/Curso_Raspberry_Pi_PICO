@@ -1,0 +1,27 @@
+# ninja log v5
+29	151	7415784607336121	pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj	e9160222b1ebe71
+153	410	7415784608875241	pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf	edd082197df5f595
+67	736	7415791898556363	main/CMakeFiles/main.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/sem.c.obj	3a0b31d8b6535f71
+460	612	7415784611784079	C:/Users/DELL/Documents/GitHub/Curso_Raspberry_Pi_PICO/Ejemplo1_PiPicW/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S	835b8c98b7d15bd2
+410	460	7415784610504801	pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin	300be17d4f90e5d7
+460	612	7415784611784079	pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S	835b8c98b7d15bd2
+410	460	7415784610504801	C:/Users/DELL/Documents/GitHub/Curso_Raspberry_Pi_PICO/Ejemplo1_PiPicW/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin	300be17d4f90e5d7
+620	1510	7415784620612714	main/CMakeFiles/main.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj	cd531a1bd8ca2101
+656	1564	7415784621002484	main/CMakeFiles/main.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj	109a7a138cc980bd
+627	1619	7415784622031158	main/CMakeFiles/main.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj	2615803c74cb9ec1
+649	1701	7415784622690779	main/CMakeFiles/main.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj	2286270722acc2c2
+89	912	7415794642779649	main/CMakeFiles/main.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj	8bee7d26733f7f45
+641	1702	7415784622780729	main/CMakeFiles/main.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.obj	8f5017170eef2737
+83	753	7415791898716276	main/CMakeFiles/main.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj	6256254fcf09483a
+52	779	7415791899205993	main/CMakeFiles/main.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj	d61398169415f3a9
+75	803	7415791899555790	main/CMakeFiles/main.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.obj	5b312641d9d74757
+60	865	7415791900195418	main/CMakeFiles/main.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj	408121689ff5747c
+113	928	7415794642839607	main/CMakeFiles/main.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/datetime.c.obj	b497c2e2c12465bf
+59	975	7415794643309340	main/CMakeFiles/main.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.obj	f9d3d328b3086ac8
+82	1066	7415794644458542	main/CMakeFiles/main.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/timeout_helper.c.obj	f1a1bb57dd0f180f
+66	1166	7415794645507924	main/CMakeFiles/main.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj	394fe8449ed0ad9c
+84	1347	7415809917895154	main/CMakeFiles/main.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/queue.c.obj	bce4177ddf918691
+105	1411	7415809918674668	main/CMakeFiles/main.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj	958f5c3532d915f3
+77	1544	7415809919893969	main/CMakeFiles/main.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj	ba91c0cdf8665440
+96	1545	7415809920003906	main/CMakeFiles/main.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj	96c483ef88445164
+125	1659	7415809921324325	main/CMakeFiles/main.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj	82c65758381f4463

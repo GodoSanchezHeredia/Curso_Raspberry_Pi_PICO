@@ -4,8 +4,8 @@ add_executable(main
         )
 
 # pull in common dependencies
-target_link_libraries(main pico_stdlib hardware_i2c)
-pico_enable_stdio_usb(main 1)
+target_link_libraries(main pico_stdlib hardware_pwm hardware_uart hardware_timer)
+pico_enable_stdio_usb(main 01)
 pico_enable_stdio_uart(main 0)
 # create map/bin/hex file etc.
 pico_add_extra_outputs(main)

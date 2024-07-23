@@ -3,9 +3,9 @@
  *
  * Code generated for Simulink model 'untitled'.
  *
- * Model version                  : 1.1
+ * Model version                  : 1.3
  * Simulink Coder version         : 9.9 (R2023a) 19-Nov-2022
- * C/C++ source code generated on : Wed Jun 19 12:48:17 2024
+ * C/C++ source code generated on : Tue Jul  9 16:31:30 2024
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM Cortex
@@ -24,6 +24,7 @@
 #include "rtw_solver.h"
 #include "ext_mode.h"
 #include "MW_analogWriteDAC.h"
+#include "MW_arduino_digitalio.h"
 #endif                                 /* untitled_COMMON_INCLUDES_ */
 
 #include "untitled_types.h"
@@ -74,30 +75,32 @@
 /* Block signals (default storage) */
 typedef struct {
   real_T Add2;                         /* '<Root>/Add2' */
+  real_T PulseGenerator;               /* '<Root>/Pulse Generator' */
 } B_untitled_T;
 
 /* Block states (default storage) for system '<Root>' */
 typedef struct {
+  codertarget_arduinobase_block_T obj; /* '<Root>/Digital Output' */
   struct {
     void *LoggedData;
   } Scope_PWORK;                       /* '<Root>/Scope' */
+
+  struct {
+    void *LoggedData;
+  } Scope1_PWORK;                      /* '<Root>/Scope1' */
+
+  int32_T clockTickCounter;            /* '<Root>/Pulse Generator' */
 } DW_untitled_T;
 
 /* Parameters (default storage) */
 struct P_untitled_T_ {
-  real_T SignalGenerator2_Amplitude;   /* Expression: 5
-                                        * Referenced by: '<Root>/Signal Generator2'
-                                        */
-  real_T SignalGenerator2_Frequency;   /* Expression: 40
-                                        * Referenced by: '<Root>/Signal Generator2'
-                                        */
   real_T SignalGenerator_Amplitude;    /* Expression: 100
                                         * Referenced by: '<Root>/Signal Generator'
                                         */
   real_T SignalGenerator_Frequency;    /* Expression: 0.5
                                         * Referenced by: '<Root>/Signal Generator'
                                         */
-  real_T Constant_Value;               /* Expression: 100
+  real_T Constant_Value;               /* Expression: 125
                                         * Referenced by: '<Root>/Constant'
                                         */
   real_T SignalGenerator1_Amplitude;   /* Expression: 10
@@ -105,6 +108,24 @@ struct P_untitled_T_ {
                                         */
   real_T SignalGenerator1_Frequency;   /* Expression: 80
                                         * Referenced by: '<Root>/Signal Generator1'
+                                        */
+  real_T SignalGenerator2_Amplitude;   /* Expression: 20
+                                        * Referenced by: '<Root>/Signal Generator2'
+                                        */
+  real_T SignalGenerator2_Frequency;   /* Expression: 40
+                                        * Referenced by: '<Root>/Signal Generator2'
+                                        */
+  real_T PulseGenerator_Amp;           /* Expression: 1
+                                        * Referenced by: '<Root>/Pulse Generator'
+                                        */
+  real_T PulseGenerator_Period;        /* Expression: 5
+                                        * Referenced by: '<Root>/Pulse Generator'
+                                        */
+  real_T PulseGenerator_Duty;          /* Expression: 5
+                                        * Referenced by: '<Root>/Pulse Generator'
+                                        */
+  real_T PulseGenerator_PhaseDelay;    /* Expression: 0
+                                        * Referenced by: '<Root>/Pulse Generator'
                                         */
 };
 

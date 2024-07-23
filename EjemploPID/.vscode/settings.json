@@ -30,6 +30,7 @@
     "pwm.h": "c",
     "stdlib.h": "c",
     "lcd.h": "c",
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "uart.h": "c"
   }
 }

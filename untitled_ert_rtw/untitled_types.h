@@ -3,9 +3,9 @@
  *
  * Code generated for Simulink model 'untitled'.
  *
- * Model version                  : 1.1
+ * Model version                  : 1.3
  * Simulink Coder version         : 9.9 (R2023a) 19-Nov-2022
- * C/C++ source code generated on : Wed Jun 19 12:48:17 2024
+ * C/C++ source code generated on : Tue Jul  9 16:31:30 2024
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM Cortex
@@ -32,6 +32,43 @@ struct tag_vAyTbppThfQLMEq8y6xARF
 typedef struct tag_vAyTbppThfQLMEq8y6xARF codertarget_arduinobase_inter_T;
 
 #endif                             /* typedef_codertarget_arduinobase_inter_T */
+
+#ifndef struct_tag_9aqKbsbsI7JI0RwgnVwU0C
+#define struct_tag_9aqKbsbsI7JI0RwgnVwU0C
+
+struct tag_9aqKbsbsI7JI0RwgnVwU0C
+{
+  int32_T __dummy;
+};
+
+#endif                                 /* struct_tag_9aqKbsbsI7JI0RwgnVwU0C */
+
+#ifndef typedef_b_arduinodriver_ArduinoDigita_T
+#define typedef_b_arduinodriver_ArduinoDigita_T
+
+typedef struct tag_9aqKbsbsI7JI0RwgnVwU0C b_arduinodriver_ArduinoDigita_T;
+
+#endif                             /* typedef_b_arduinodriver_ArduinoDigita_T */
+
+#ifndef struct_tag_qrLkTWTW64zZK0sqwALTyG
+#define struct_tag_qrLkTWTW64zZK0sqwALTyG
+
+struct tag_qrLkTWTW64zZK0sqwALTyG
+{
+  boolean_T matlabCodegenIsDeleted;
+  int32_T isInitialized;
+  boolean_T isSetupComplete;
+  b_arduinodriver_ArduinoDigita_T DigitalIODriverObj;
+};
+
+#endif                                 /* struct_tag_qrLkTWTW64zZK0sqwALTyG */
+
+#ifndef typedef_codertarget_arduinobase_block_T
+#define typedef_codertarget_arduinobase_block_T
+
+typedef struct tag_qrLkTWTW64zZK0sqwALTyG codertarget_arduinobase_block_T;
+
+#endif                             /* typedef_codertarget_arduinobase_block_T */
 
 /* Parameters (default storage) */
 typedef struct P_untitled_T_ P_untitled_T;
